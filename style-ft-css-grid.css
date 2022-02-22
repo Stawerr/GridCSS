@@ -114,6 +114,7 @@ select {
   background-image: url(/img/depositphotos_5215941-stock-photo-road-panorama.jpg);
   background-size: 100% 100%;
 }
+
 @media only screen and (min-width: 992px) {
   #app{
     grid-template-columns: auto auto auto auto;
@@ -122,6 +123,13 @@ select {
         "a b b c"
         "d b b c"
         "d e f f";
+}
+.imagem:hover
+{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 20px rgb(241, 120, 7);
+  
 }
 .a{
     grid-area: a;
