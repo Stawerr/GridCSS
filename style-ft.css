@@ -81,8 +81,7 @@ body{
     padding: 15px;
     display: grid;
     gap:20px;
-    grid-template-columns: auto auto auto auto;
-    grid-auto-rows: 300px;
+    grid-auto-rows: 9rem;
 }
 .news{
     background-color: bisque;
@@ -117,7 +116,14 @@ body{
     background-image: url(/img/depositphotos_5215941-stock-photo-road-panorama.jpg);
     background-size: 100% 100%;
 }
-.news:nth-child(1){ 
+
+ @media only screen and (min-width: 992px) {
+  .grid-container{
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: 300px;
+  }
+  
+  .news:nth-child(1){ 
     grid-column: span 1; 
  } 
  .news:nth-child(2){ 
@@ -133,3 +139,4 @@ body{
  .news:nth-child(6){ 
     grid-column: span 2;
  }
+}
