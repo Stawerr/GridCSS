@@ -116,45 +116,29 @@ select {
 }
 @media only screen and (min-width: 992px) {
   #app{
-    height: 100vh;
-    display: grid;
-    gap: 20px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
         "a b b c"
         "d b b c"
         "d e f f";
-    padding: 20px;
 }
 .a{
     grid-area: a;
-    background-image: url(/img/andrik-langfield-Up9rQ3pk9XQ-unsplash.jpg);
-    background-size: 100% 100%;
 }
 .b{
     grid-area: b;
-    background-image: url(/img/andrik-langfield-Up9rQ3pk9XQ-unsplash.jpg);
-    background-size: 100% 100%;
 }
 .c{
    grid-area: c; 
-   background-image: url(/img/raphael-lopes-BwHk7diV4WY-unsplash.jpg);
-   background-size: 100% 100%;
 }
 .d{
     grid-area: d;
-    background-image: url(/img/raphael-lopes-BwHk7diV4WY-unsplash.jpg);
-    background-size: 100% 100%;
 }
 .e{
     grid-area: e;
-    background-image: url(/img/andrik-langfield-Up9rQ3pk9XQ-unsplash.jpg);
-    background-size: 100% 100%;
 }
 .f{
     grid-area: f;
-    background-image: url(/img/depositphotos_5215941-stock-photo-road-panorama.jpg);
-    background-size: 100% 100%;
 }
 }
